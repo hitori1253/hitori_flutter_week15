@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({super.key});
@@ -12,10 +12,11 @@ class SecondPage extends StatelessWidget {
       appBar: AppBar(title: const Text('Second Page')),
       body: Center(
         child: Text(
-          'Hello $name',
+          'ทำไรอ่ะ $name',
           style: const TextStyle(fontSize: 24),
         ),
       ),
     );
   }
 }
+*/

@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import '../widgets/app_drawer.dart';
+/*import 'package:flutter/material.dart';
+import 'package:hitori15/widgets/app.dart';
 
 class CardPage extends StatelessWidget {
   const CardPage({super.key});
@@ -24,3 +24,4 @@ class CardPage extends StatelessWidget {
     );
   }
 }
+*/

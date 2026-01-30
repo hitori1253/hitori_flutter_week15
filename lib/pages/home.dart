@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/app_drawer.dart';
+import 'package:hitori15/widgets/app.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
               arguments: 'pochi',
             );
           },
-          child: const Text('Go to Second Page'),
+          child: const Text('ไปหน้า 2'),
         ),
       ),
     );
