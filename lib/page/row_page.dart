@@ -9,18 +9,18 @@ class RowPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.purple,
-        title: Text("Row Widget"),
+        title: const Text('Row Widget'),
       ),
       body: Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text("R-1", style: TextStyle(fontSize: 25)),
-            Text("R-2", style: TextStyle(fontSize: 25)),
-            Text("R-3", style: TextStyle(fontSize: 25)),
-            Text("R-4", style: TextStyle(fontSize: 25)),
-            Text("R-5", style: TextStyle(fontSize: 25)),
+          children: const [
+            Text('R-1', style: TextStyle(fontSize: 25)),
+            Text('R-2', style: TextStyle(fontSize: 25)),
+            Text('R-3', style: TextStyle(fontSize: 25)),
+            Text('R-4', style: TextStyle(fontSize: 25)),
+            Text('R-5', style: TextStyle(fontSize: 25)),
           ],
         ),
       ),

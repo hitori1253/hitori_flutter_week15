@@ -9,18 +9,27 @@ class CardPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.purple,
-        title: Text("Card Widget"),
+        title: const Text('Card Widget'),
       ),
       body: Center(
         child: Card(
           child: InkWell(
             onTap: () {
-              debugPrint("CARD-1");
+              debugPrint('CARD-1');
             },
-            child: SizedBox(
+            child: const SizedBox(
               width: 300.0,
               height: 100.0,
-              child: Column(children: [Icon(Icons.home), Text("CARD-1")]),
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.home),
+                    SizedBox(height: 8),
+                    Text('CARD-1'),
+                  ],
+                ),
+              ),
             ),
           ),
         ),
