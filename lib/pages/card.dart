@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:hitori15/widgets/app.dart';
 
 class CardPage extends StatelessWidget {
@@ -24,3 +24,4 @@ class CardPage extends StatelessWidget {
     );
   }
 }
+*/

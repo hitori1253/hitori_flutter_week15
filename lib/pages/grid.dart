@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:hitori15/widgets/app.dart';
 
 class GridPage extends StatelessWidget {
@@ -21,3 +21,4 @@ class GridPage extends StatelessWidget {
     );
   }
 }
+*/
